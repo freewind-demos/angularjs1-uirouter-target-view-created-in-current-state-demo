@@ -1,9 +1,8 @@
-AngularJS1 "@uirouter" Target By Relative States Demo
-=====================================================
+AngularJS1 "@uirouter" Target View Created in Current State Demo
+================================================================
 
-可以使用`^.^`这样的记号来表示上级state，其中每个`^`就表示一个上级。
-
-所以`^`表示parent state, `^.^`表示grandparent state.
+有时候某个state里产生了一些`ui-view`，同时希望直接在当前的state中就填充它们，
+而不是再创建一些子state，这时可以使用`viewName@.`来表示当前state中创建的`viewName`.
 
 ```
 npm install
@@ -13,4 +12,4 @@ npm run demo
 Documentation
 -------------
 
-- <https://ui-router.github.io/guide/views>
+- <https://github.com/ui-router/core/issues/25>
