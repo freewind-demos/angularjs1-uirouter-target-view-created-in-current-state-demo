@@ -1,9 +1,9 @@
-AngularJS1 "@uirouter" Target View Name by State Demo
+AngularJS1 "@uirouter" Target By Relative States Demo
 =====================================================
 
-默认情况下，child state中`views`中给出的view name是parent state产生的。
+可以使用`^.^`这样的记号来表示上级state，其中每个`^`就表示一个上级。
 
-有时候，我们需要打破这个约定，让child state自己选择target到一个不是由parent state产生的uiview中。
+所以`^`表示parent state, `^.^`表示grandparent state.
 
 ```
 npm install

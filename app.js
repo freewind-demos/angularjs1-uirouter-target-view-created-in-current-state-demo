@@ -34,7 +34,7 @@ app.config(($stateProvider, $urlRouterProvider) => {
   $stateProvider.state('grandparent.parent.naughtyChild', {
     url: '/naughty-child',
     views: {
-      'head@grandparent': {
+      'head@^.^': {
         templateUrl: './templates/child-head.html'
       },
       body: {
