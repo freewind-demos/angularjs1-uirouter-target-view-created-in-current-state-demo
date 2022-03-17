@@ -6,7 +6,7 @@ AngularJS1 "@uirouter" Target View Created in Current State Demo
 
 ```
 npm install
-npm run demo
+npm start
 ```
 
 Documentation
